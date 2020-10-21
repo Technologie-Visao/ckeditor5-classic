@@ -1,10 +1,29 @@
 {
-  "name": "ckeditor5-custom-build",
-  "author": "CKSource",
-  "description": "A custom CKEditor 5 build made by the CKEditor 5 online builder.",
+  "name": "@visao/ckeditor5-visao",
   "version": "0.0.1",
-  "license": "SEE LICENSE IN LICENSE.md",
-  "private": true,
+  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "keywords": [
+    "ckeditor5-build",
+    "ckeditor",
+    "ckeditor5",
+    "ckeditor 5",
+    "wysiwyg",
+    "rich text",
+    "editor",
+    "html",
+    "contentEditable",
+    "editing",
+    "operational transformation",
+    "ot",
+    "collaboration",
+    "collaborative",
+    "real-time",
+    "framework"
+  ],
+  "main": "./build/ckeditor.js",
+  "files": [
+    "build"
+  ],
   "devDependencies": {
     "@ckeditor/ckeditor5-adapter-ckfinder": "^23.0.0",
     "@ckeditor/ckeditor5-autoformat": "^23.0.0",
@@ -40,7 +59,20 @@
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12"
   },
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=5.7.1"
+  },
+  "author": "CKSource (http://cksource.com/) - Visao",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/Technologie-Visao/ckeditor5-visao.com",
+  "bugs": "https://github.com/Technologie-Visao/ckeditor5-visao/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Technologie-Visao/ckeditor5-visao.git"
+  },
   "scripts": {
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "preversion": "npm run build"
   }
 }
