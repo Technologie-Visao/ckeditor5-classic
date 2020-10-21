@@ -32,6 +32,9 @@ import TextTransformation from '@ckeditor/ckeditor5-typing/src/texttransformatio
 import Autoformat from "@ckeditor/ckeditor5-autoformat/src/autoformat";
 import BlockQuote from "@ckeditor/ckeditor5-block-quote/src/blockquote";
 import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
+import Video from "@visao/ckeditor5-video/src/video";
+import VideoUpload from "@visao/ckeditor5-video/src/videoupload";
+import VideoResize from "@visao/ckeditor5-video/src/videoresize";
 
 
 export default class ClassicVisaoEditor extends ClassicEditorBase {}
@@ -66,7 +69,10 @@ ClassicVisaoEditor.builtinPlugins = [
 	Paragraph,
 	Table,
 	TableToolbar,
-	TextTransformation
+	TextTransformation,
+	Video,
+	VideoResize,
+	VideoUpload
 ];
 
 // Editor configuration.

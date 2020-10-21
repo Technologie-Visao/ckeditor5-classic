@@ -408,6 +408,19 @@
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
 
+"@visao/ckeditor5-video@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-video/-/ckeditor5-video-0.0.1.tgz#214daf89da795ed172ae62cb7336ace0e10afd4a"
+  integrity sha512-ouS0KMTDcS+/U0QO7hW2fQoH0HsrBBUwAPZJPKKcBZPC+KMgohwecoKthnkG0CUazdBHW1Zb8E72HG6b6WHFEg==
+  dependencies:
+    "@ckeditor/ckeditor5-clipboard" "^23.0.0"
+    "@ckeditor/ckeditor5-core" "^23.0.0"
+    "@ckeditor/ckeditor5-engine" "^23.0.0"
+    "@ckeditor/ckeditor5-ui" "^23.0.0"
+    "@ckeditor/ckeditor5-upload" "^23.0.0"
+    "@ckeditor/ckeditor5-utils" "^23.0.0"
+    "@ckeditor/ckeditor5-widget" "^23.0.0"
+
 "@webassemblyjs/ast@1.9.0":
   version "1.9.0"
   resolved "https://registry.yarnpkg.com/@webassemblyjs/ast/-/ast-1.9.0.tgz#bd850604b4042459a5a41cd7d338cbed695ed964"

@@ -1,6 +1,6 @@
 {
   "name": "@visao/ckeditor5-classic",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Visao build of he classic editor build of CKEditor 5",
   "keywords": [
     "ckeditor5-build",
@@ -46,6 +46,7 @@
     "@ckeditor/ckeditor5-table": "^23.0.0",
     "@ckeditor/ckeditor5-theme-lark": "^23.0.0",
     "@ckeditor/ckeditor5-typing": "^23.0.0",
+    "@visao/ckeditor5-video": "^0.0.1",
     "css-loader": "^4.3.0",
     "postcss": "^8.1.1",
     "postcss-loader": "^4.0.3",
