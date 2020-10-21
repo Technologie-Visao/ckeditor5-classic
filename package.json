@@ -1,7 +1,7 @@
 {
-  "name": "@visao/ckeditor5-visao",
+  "name": "@visao/ckeditor5-classic",
   "version": "0.0.1",
-  "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor.",
+  "description": "Visao build of he classic editor build of CKEditor 5",
   "keywords": [
     "ckeditor5-build",
     "ckeditor",
@@ -65,11 +65,11 @@
   },
   "author": "CKSource (http://cksource.com/) - Visao",
   "license": "GPL-2.0-or-later",
-  "homepage": "https://github.com/Technologie-Visao/ckeditor5-visao.com",
-  "bugs": "https://github.com/Technologie-Visao/ckeditor5-visao/issues",
+  "homepage": "https://github.com/Technologie-Visao/ckeditor5-classic.com",
+  "bugs": "https://github.com/Technologie-Visao/ckeditor5-classic/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Technologie-Visao/ckeditor5-visao.git"
+    "url": "https://github.com/Technologie-Visao/ckeditor5-classic.git"
   },
   "scripts": {
     "build": "webpack --mode production",
