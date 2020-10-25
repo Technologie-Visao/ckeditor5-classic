@@ -67,10 +67,10 @@
     "@ckeditor/ckeditor5-utils" "^23.0.0"
     lodash-es "^4.17.15"
 
-"@ckeditor/ckeditor5-dev-utils@^23.5.1":
-  version "23.5.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-utils/-/ckeditor5-dev-utils-23.5.1.tgz#d5388bb6c06b3bac6b54f4e3b18809e21cc31475"
-  integrity sha512-oe7puLx6NQ6Dr0kW0ZsRnVoCxn/Z0xvrsq+Uw3X2+71yqPFj3IQ8YK3inqBhRmsABC5IoMFQrWTREdMebF6B5w==
+"@ckeditor/ckeditor5-dev-utils@^23.5.1", "@ckeditor/ckeditor5-dev-utils@^23.6.0":
+  version "23.6.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-utils/-/ckeditor5-dev-utils-23.6.0.tgz#a208e7cb0a5d46c5e70633f390e33e6966c558e5"
+  integrity sha512-fm8O7BmszPUsHz8Tgs4SvbENxAb0H6E4/qoDIfNHCekc1G/4eZOBlwNyJP3xb+qgtv3vPURAIkB6dreNaJAVFA==
   dependencies:
     acorn "^6.2.1"
     acorn-walk "^6.2.0"
@@ -89,11 +89,11 @@
     through2 "^3.0.1"
 
 "@ckeditor/ckeditor5-dev-webpack-plugin@^23.5.1":
-  version "23.5.1"
-  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-webpack-plugin/-/ckeditor5-dev-webpack-plugin-23.5.1.tgz#b2b80ee378ae33d518bd08a0be05290d3eaf71ce"
-  integrity sha512-73RqbAJkZMMNRFnaZD8jpsOKbf7chWPxU0aivncB5a9jTrwiip1qESJgoZf9CcN3hNGEhkRueOgvJkbQLDNBEA==
+  version "23.6.0"
+  resolved "https://registry.yarnpkg.com/@ckeditor/ckeditor5-dev-webpack-plugin/-/ckeditor5-dev-webpack-plugin-23.6.0.tgz#d88c339e84a24a626fe490944a0c12217f025c77"
+  integrity sha512-XalI4ID5/2n6aUyfk0NxUXoahZd/y1Wj5i+ybEeyoLd3WouubRf5ed0gMS+taBfPt+ifYP0JPFkdb54k+dVlqQ==
   dependencies:
-    "@ckeditor/ckeditor5-dev-utils" "^23.5.1"
+    "@ckeditor/ckeditor5-dev-utils" "^23.6.0"
     chalk "^4.0.0"
     rimraf "^3.0.2"
     webpack-sources "^1.4.3"
@@ -375,6 +375,14 @@
   dependencies:
     mkdirp "^1.0.4"
 
+"@packaged-ui/ckeditor5-layout@https://github.com/alexdaube/ckeditor5-layout/tarball/master":
+  version "0.2.0"
+  resolved "https://github.com/alexdaube/ckeditor5-layout/tarball/master#fa0ae056ed5f69d8d4f9d8fd26283f50373845df"
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^23.0.0"
+    "@ckeditor/ckeditor5-ui" "^23.0.0"
+    "@ckeditor/ckeditor5-widget" "^23.0.0"
+
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -394,9 +402,9 @@
   integrity sha512-tHq6qdbT9U1IRSGf14CL0pUlULksvY9OZ+5eEgl1N7t+OA3tGvNpxJCzuKQlsNgCVwbAs670L1vcVQi8j9HjnA==
 
 "@types/node@*":
-  version "14.14.0"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.0.tgz#f1091b6ad5de18e8e91bdbd43ec63f13de372538"
-  integrity sha512-BfbIHP9IapdupGhq/hc+jT5dyiBVZ2DdeC5WwJWQWDb0GijQlzUFAeIQn/2GtvZcd2HVUU7An8felIICFTC2qg==
+  version "14.14.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.2.tgz#d25295f9e4ca5989a2c610754dc02a9721235eeb"
+  integrity sha512-jeYJU2kl7hL9U5xuI/BhKPZ4vqGM/OmK6whiFAXVhlstzZhVamWhDSmHyGLIp+RVyuF9/d0dqr2P85aFj4BvJg==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
@@ -1051,9 +1059,9 @@ caniuse-api@^3.0.0:
     lodash.uniq "^4.5.0"
 
 caniuse-lite@^1.0.0, caniuse-lite@^1.0.30001135:
-  version "1.0.30001148"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001148.tgz#dc97c7ed918ab33bf8706ddd5e387287e015d637"
-  integrity sha512-E66qcd0KMKZHNJQt9hiLZGE3J4zuTqE1OnU53miEVtylFbwOEmeA5OsRu90noZful+XGSQOni1aT2tiqu/9yYw==
+  version "1.0.30001151"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001151.tgz#1ddfde5e6fff02aad7940b4edb7d3ac76b0cb00b"
+  integrity sha512-Zh3sHqskX6mHNrqUerh+fkf0N72cMxrmflzje/JyVImfpknscMnkeJrlFGJcqTmaa0iszdYptGpWMJCRQDkBVw==
 
 chalk@^2.0.0, chalk@^2.4.1, chalk@^2.4.2:
   version "2.4.2"
@@ -1670,9 +1678,9 @@ duplexify@^3.4.2, duplexify@^3.6.0:
     stream-shift "^1.0.0"
 
 electron-to-chromium@^1.3.571:
-  version "1.3.582"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.582.tgz#1adfac5affce84d85b3d7b3dfbc4ade293a6ffc4"
-  integrity sha512-0nCJ7cSqnkMC+kUuPs0YgklFHraWGl/xHqtZWWtOeVtyi+YqkoAOMGuZQad43DscXCQI/yizcTa3u6B5r+BLww==
+  version "1.3.583"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.583.tgz#47a9fde74740b1205dba96db2e433132964ba3ee"
+  integrity sha512-L9BwLwJohjZW9mQESI79HRzhicPk1DFgM+8hOCfGgGCFEcA3Otpv7QK6SGtYoZvfQfE3wKLh0Hd5ptqUFv3gvQ==
 
 elliptic@^6.5.3:
   version "6.5.3"
@@ -2666,9 +2674,9 @@ javascript-stringify@^1.6.0:
   integrity sha1-FC0RHzpuPa6PSpr9d9RYVbWpzOM=
 
 jest-worker@^26.5.0:
-  version "26.5.0"
-  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-26.5.0.tgz#87deee86dbbc5f98d9919e0dadf2c40e3152fa30"
-  integrity sha512-kTw66Dn4ZX7WpjZ7T/SUDgRhapFRKWmisVAF0Rv4Fu8SLFD7eLbqpLvbxVqYhSgaWa7I+bW7pHnbyfNsH6stug==
+  version "26.6.1"
+  resolved "https://registry.yarnpkg.com/jest-worker/-/jest-worker-26.6.1.tgz#c2ae8cde6802cc14056043f997469ec170d9c32a"
+  integrity sha512-R5IE3qSGz+QynJx8y+ICEkdI2OJ3RJjRQVEyCcFAd3yVhQSEtquziPO29Mlzgn07LOVE8u8jhJ1FqcwegiXWOw==
   dependencies:
     "@types/node" "*"
     merge-stream "^2.0.0"
@@ -3063,10 +3071,10 @@ nan@^2.12.1:
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.2.tgz#f5376400695168f4cc694ac9393d0c9585eeea19"
   integrity sha512-M2ufzIiINKCuDfBSAUr1vWQ+vuVcA9kqx8JJUsbQi6yf1uGRyb7HfpdfUr5qLXf3B/t8dPvcjhKMmlfnP47EzQ==
 
-nanoid@^3.1.12:
-  version "3.1.12"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.12.tgz#6f7736c62e8d39421601e4a0c77623a97ea69654"
-  integrity sha512-1qstj9z5+x491jfiC4Nelk+f8XBad7LN20PmyWINJEMRSf3wcAjAWysw1qaA8z6NSKe2sjq1hRSDpBH5paCb6A==
+nanoid@^3.1.15:
+  version "3.1.15"
+  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.1.15.tgz#28e7c4ce56aff2d0c2d37814c7aef9d6c5b3e6f3"
+  integrity sha512-n8rXUZ8UU3lV6+43atPrSizqzh25n1/f00Wx1sCiE7R1sSHytZLTTiQl8DjC4IDLOnEZDlgJhy0yO4VsIpMxow==
 
 nanomatch@^1.2.9:
   version "1.2.13"
@@ -3825,13 +3833,13 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.14, postcss@^7.0.17, postcss@^7.0.1
     supports-color "^6.1.0"
 
 postcss@^8.1.1:
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.2.tgz#9731fcaa4f7b0bef47121821bdae9eeb609a324c"
-  integrity sha512-mToqEVFq8jF9TFhlIK4HhE34zknFJuNTgqtsr60vUvrWn+9TIYugCwiV1JZRxCuOrej2jjstun1bn4Bc7/1HkA==
+  version "8.1.4"
+  resolved "https://registry.yarnpkg.com/postcss/-/postcss-8.1.4.tgz#356dfef367a70f3d04347f74560c85846e20e4c1"
+  integrity sha512-LfqcwgMq9LOd8pX7K2+r2HPitlIGC5p6PoZhVELlqhh2YGDVcXKpkCseqan73Hrdik6nBd2OvoDPUaP/oMj9hQ==
   dependencies:
     colorette "^1.2.1"
     line-column "^1.0.2"
-    nanoid "^3.1.12"
+    nanoid "^3.1.15"
     source-map "^0.6.1"
 
 prelude-ls@~1.1.2:
@@ -4587,9 +4595,9 @@ terser@^4.1.2:
     source-map-support "~0.5.12"
 
 terser@^5.3.4:
-  version "5.3.7"
-  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.7.tgz#798a4ae2e7ff67050c3e99fcc4e00725827d97e2"
-  integrity sha512-lJbKdfxWvjpV330U4PBZStCT9h3N9A4zZVA5Y4k9sCWXknrpdyxi1oMsRKLmQ/YDMDxSBKIh88v0SkdhdqX06w==
+  version "5.3.8"
+  resolved "https://registry.yarnpkg.com/terser/-/terser-5.3.8.tgz#991ae8ba21a3d990579b54aa9af11586197a75dd"
+  integrity sha512-zVotuHoIfnYjtlurOouTazciEfL7V38QMAOhGqpXDEg6yT13cF4+fEP9b0rrCEQTn+tT46uxgFsTZzhygk+CzQ==
   dependencies:
     commander "^2.20.0"
     source-map "~0.7.2"
