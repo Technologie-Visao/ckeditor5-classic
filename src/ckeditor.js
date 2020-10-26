@@ -35,7 +35,7 @@ import Bold from "@ckeditor/ckeditor5-basic-styles/src/bold";
 import Video from "@visao/ckeditor5-video/src/video";
 import VideoUpload from "@visao/ckeditor5-video/src/videoupload";
 import VideoResize from "@visao/ckeditor5-video/src/videoresize";
-import Layout from "@packaged-ui/ckeditor5-layout";
+import Layout from "@visao/ckeditor5-flex-layout/src/layout";
 
 export default class ClassicVisaoEditor extends ClassicEditorBase {}
 

@@ -375,14 +375,6 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@packaged-ui/ckeditor5-layout@https://github.com/alexdaube/ckeditor5-layout/tarball/editingfix":
-  version "0.2.0"
-  resolved "https://github.com/alexdaube/ckeditor5-layout/tarball/editingfix#83bb1f72947560664237e37d9ac5343b1e163f7c"
-  dependencies:
-    "@ckeditor/ckeditor5-core" "^23.0.0"
-    "@ckeditor/ckeditor5-ui" "^23.0.0"
-    "@ckeditor/ckeditor5-widget" "^23.0.0"
-
 "@types/glob@^7.1.1":
   version "7.1.3"
   resolved "https://registry.yarnpkg.com/@types/glob/-/glob-7.1.3.tgz#e6ba80f36b7daad2c685acd9266382e68985c183"
@@ -415,6 +407,15 @@
   version "1.5.4"
   resolved "https://registry.yarnpkg.com/@types/q/-/q-1.5.4.tgz#15925414e0ad2cd765bfef58842f7e26a7accb24"
   integrity sha512-1HcDas8SEj4z1Wc696tH56G8OlRaH/sqZOynNNB+HF0WOeXPaxTtbYzJY2oEfiUxjSKjhCKr+MvR7dCHcEelug==
+
+"@visao/ckeditor5-flex-layout@^0.0.1":
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-flex-layout/-/ckeditor5-flex-layout-0.0.1.tgz#e88c8e7fd82d778bd8833ec7f2f7327c5ecf4c4c"
+  integrity sha512-nfqEoUIOtZdwCpDIRy9SyR+xOYxy6a2PueE4KsIaiJx2SsjE/Retk3k8KaohsrY8euTILlAGuA2UXGTLCub5oA==
+  dependencies:
+    "@ckeditor/ckeditor5-core" "^23.0.0"
+    "@ckeditor/ckeditor5-ui" "^23.0.0"
+    "@ckeditor/ckeditor5-widget" "^23.0.0"
 
 "@visao/ckeditor5-video@^0.0.2":
   version "0.0.2"
