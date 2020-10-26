@@ -375,9 +375,9 @@
   dependencies:
     mkdirp "^1.0.4"
 
-"@packaged-ui/ckeditor5-layout@https://github.com/alexdaube/ckeditor5-layout/tarball/master":
+"@packaged-ui/ckeditor5-layout@https://github.com/alexdaube/ckeditor5-layout/tarball/editingfix":
   version "0.2.0"
-  resolved "https://github.com/alexdaube/ckeditor5-layout/tarball/master#fa0ae056ed5f69d8d4f9d8fd26283f50373845df"
+  resolved "https://github.com/alexdaube/ckeditor5-layout/tarball/editingfix#83bb1f72947560664237e37d9ac5343b1e163f7c"
   dependencies:
     "@ckeditor/ckeditor5-core" "^23.0.0"
     "@ckeditor/ckeditor5-ui" "^23.0.0"
