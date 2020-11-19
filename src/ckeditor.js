@@ -36,6 +36,7 @@ import Video from "@visao/ckeditor5-video/src/video";
 import VideoUpload from "@visao/ckeditor5-video/src/videoupload";
 import VideoResize from "@visao/ckeditor5-video/src/videoresize";
 import Layout from "@visao/ckeditor5-flex-layout/src/layout";
+import VideoStyle from "@visao/ckeditor5-video/src/videostyle";
 
 export default class ClassicVisaoEditor extends ClassicEditorBase {}
 
@@ -73,6 +74,7 @@ ClassicVisaoEditor.builtinPlugins = [
 	Video,
 	VideoResize,
 	VideoUpload,
+	VideoStyle,
 	Layout
 ];
 
@@ -92,6 +94,7 @@ ClassicVisaoEditor.defaultConfig = {
 			'indent',
 			'outdent',
 			'|',
+			'videoUpload',
 			'imageUpload',
 			'blockQuote',
 			'insertTable',
