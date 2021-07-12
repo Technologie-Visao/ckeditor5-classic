@@ -1,6 +1,6 @@
 {
   "name": "@visao/ckeditor5-classic",
-  "version": "28.0.0",
+  "version": "29.0.0",
   "description": "Visao build of he classic editor build of CKEditor 5",
   "keywords": [
     "ckeditor5-build",
@@ -25,23 +25,23 @@
     "build"
   ],
   "dependencies": {
-    "@ckeditor/ckeditor5-autoformat": "^28.0.0",
-    "@ckeditor/ckeditor5-basic-styles": "^28.0.0",
-    "@ckeditor/ckeditor5-editor-classic": "^28.0.0",
-    "@ckeditor/ckeditor5-essentials": "^28.0.0",
-    "@ckeditor/ckeditor5-horizontal-line": "^28.0.0",
-    "@ckeditor/ckeditor5-image": "^28.0.0",
-    "@ckeditor/ckeditor5-link": "^28.0.0",
-    "@ckeditor/ckeditor5-list": "^28.0.0",
-    "@ckeditor/ckeditor5-media-embed": "^28.0.0",
-    "@ckeditor/ckeditor5-paragraph": "^28.0.0",
-    "@visao/ckeditor5-flex-layout": "28.0.0",
-    "@visao/ckeditor5-video": "28.0.0"
+    "@ckeditor/ckeditor5-autoformat": "^29.0.0",
+    "@ckeditor/ckeditor5-basic-styles": "^29.0.0",
+    "@ckeditor/ckeditor5-editor-classic": "^29.0.0",
+    "@ckeditor/ckeditor5-essentials": "^29.0.0",
+    "@ckeditor/ckeditor5-horizontal-line": "^29.0.0",
+    "@ckeditor/ckeditor5-image": "^29.0.0",
+    "@ckeditor/ckeditor5-link": "^29.0.0",
+    "@ckeditor/ckeditor5-list": "^29.0.0",
+    "@ckeditor/ckeditor5-media-embed": "^29.0.0",
+    "@ckeditor/ckeditor5-paragraph": "^29.0.0",
+    "@visao/ckeditor5-flex-layout": "29.0.0",
+    "@visao/ckeditor5-video": "29.0.0"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-dev-utils": "^25.2.2",
     "@ckeditor/ckeditor5-dev-webpack-plugin": "^25.0.0",
-    "@ckeditor/ckeditor5-theme-lark": "^28.0.0",
+    "@ckeditor/ckeditor5-theme-lark": "^29.0.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^4.0.1",
     "style-loader": "^1.2.1",
