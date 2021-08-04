@@ -442,10 +442,10 @@
     ckeditor5 "^29.0.0"
     lodash-es "^4.17.15"
 
-"@visao/ckeditor5-video@29.0.0":
-  version "29.0.0"
-  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-video/-/ckeditor5-video-29.0.0.tgz#6dad0ba400168a65b98a943829f7efcaf66f6ab1"
-  integrity sha512-Peuh9/T8tPl6ZkGhOVhkaX/l2l8MD3Wh3DtWTQBuxQok0tf47HRQw8hN+hPHIUYj87oQI7raCYkbtkT53FMi7Q==
+"@visao/ckeditor5-video@29.0.1":
+  version "29.0.1"
+  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-video/-/ckeditor5-video-29.0.1.tgz#fedf7319cc61a1d876918822415bb865da135e65"
+  integrity sha512-gvoCzX9vTHT4n2UVxirZMdu8nqluA0OVPtWn0a3J5cm4KJH3WYa+tFjO8gtqLslFRrO+a3ilHQgFmIYv5cAssg==
   dependencies:
     "@ckeditor/ckeditor5-ui" "^29.0.0"
     ckeditor5 "^29.0.0"
