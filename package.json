@@ -1,6 +1,6 @@
 {
   "name": "@visao/ckeditor5-classic",
-  "version": "28.0.0",
+  "version": "28.0.1",
   "description": "Visao build of he classic editor build of CKEditor 5",
   "keywords": [
     "ckeditor5-build",
@@ -36,7 +36,7 @@
     "@ckeditor/ckeditor5-media-embed": "^28.0.0",
     "@ckeditor/ckeditor5-paragraph": "^28.0.0",
     "@visao/ckeditor5-flex-layout": "28.0.0",
-    "@visao/ckeditor5-video": "28.0.0"
+    "@visao/ckeditor5-video": "28.0.1"
   },
   "devDependencies": {
     "@ckeditor/ckeditor5-dev-utils": "^25.2.2",

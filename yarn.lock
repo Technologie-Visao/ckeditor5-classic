@@ -420,10 +420,10 @@
     "@ckeditor/ckeditor5-ui" "^28.0.0"
     ckeditor5 "^28.0.0"
 
-"@visao/ckeditor5-video@28.0.0":
-  version "28.0.0"
-  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-video/-/ckeditor5-video-28.0.0.tgz#678886891a7dd50e1c58eea9b35885bc2ef05ad9"
-  integrity sha512-Xmhz4VU+owUkXLZUczOBpGKZg6F8IvcPWjG0a8r53p/o2naNtfryKAjyqDtq2kTV1Lp5RGCndmm03sLi+uJ8OQ==
+"@visao/ckeditor5-video@28.0.1":
+  version "28.0.1"
+  resolved "https://registry.yarnpkg.com/@visao/ckeditor5-video/-/ckeditor5-video-28.0.1.tgz#2dcc8ddd14af9aeb51829f1c751ebbb0549e3186"
+  integrity sha512-1w2HyfirebuIq8Wqt9x4Hy2wMSaJC75YIlQCq5ZIJc0Z3WUCPxr9n+M9czs/oLmasa+bOWCzcZjzpZfPRyd6Vg==
   dependencies:
     "@ckeditor/ckeditor5-ui" "^28.0.0"
     ckeditor5 "^28.0.0"
